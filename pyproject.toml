@@ -1,0 +1,35 @@
+[project]
+name = "transiroyt"
+version = "0.5.2"
+description = "On-device Japanese YouTube dubbing for macOS"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "httpx>=0.28,<1",
+  "yt-dlp[default]>=2025.10.14",
+  "huggingface-hub>=0.34,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.12,<1"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+asyncio_mode = "auto"
+# The checkout also holds benchmarks/ and third_party/ (index-tts) with their own test suites;
+# `uv run pytest` at the top level is the product suite.
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

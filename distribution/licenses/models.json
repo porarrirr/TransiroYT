@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "models": [
+    {
+      "name": "Irodori",
+      "repo": "Aratako/Irodori-TTS-v4.1-Small-MF",
+      "revision": "ccc78f5d480b6e51b69b2d5042a14c4da04fea6e",
+      "files": [
+        {
+          "file": "models/Irodori/README.md",
+          "source": "https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small-MF/resolve/ccc78f5d480b6e51b69b2d5042a14c4da04fea6e/README.md",
+          "sha256": "a0ce54c3fb6b19a3af8f41d38e127162c04ae4217d036c16774bb749dd2a20bb"
+        }
+      ]
+    },
+    {
+      "name": "Semantic-DACVAE",
+      "repo": "Aratako/Semantic-DACVAE-Japanese-32dim",
+      "revision": "47376ee24834d7a05a48ebabfe3cde29b3c5e214",
+      "files": [
+        {
+          "file": "models/Semantic-DACVAE/README.md",
+          "source": "https://huggingface.co/Aratako/Semantic-DACVAE-Japanese-32dim/resolve/47376ee24834d7a05a48ebabfe3cde29b3c5e214/README.md",
+          "sha256": "105a6541b90e1c7817f2c5012f431ad107fed066aaa35d5b501c6d09d31f99ec"
+        }
+      ]
+    },
+    {
+      "name": "SilentCipher",
+      "repo": "Sony/SilentCipher",
+      "revision": "a1c4d021905e0dc5b24be5f68db5fc4dba410ee1",
+      "files": [
+        {
+          "file": "models/SilentCipher/README.md",
+          "source": "https://huggingface.co/Sony/SilentCipher/resolve/a1c4d021905e0dc5b24be5f68db5fc4dba410ee1/README.md",
+          "sha256": "105f2bccec31749d64f6159fc1f4df67cbd174e2c7ac9d6c27077f2393e27af8"
+        }
+      ]
+    },
+    {
+      "name": "Gemma4-Fallback",
+      "repo": "unsloth/gemma-4-E4B-it-GGUF",
+      "revision": "bfc15c382204943c3a8fff0c750b94ae2364d7a3",
+      "files": [
+        {
+          "file": "models/Gemma4-Fallback/LICENSE",
+          "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "models/Gemma4-Fallback/README.md",
+          "source": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/bfc15c382204943c3a8fff0c750b94ae2364d7a3/README.md",
+          "sha256": "d741f0752fcf433cc3960ae20c609dbb159c25ce269da3b004246e8fd34245a3"
+        }
+      ]
+    },
+    {
+      "name": "IndexTTS-2.5",
+      "repo": "IndexTeam/IndexTTS-2.5",
+      "revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+      "files": [
+        {
+          "file": "models/IndexTTS-2.5/LICENSE",
+          "source": "https://huggingface.co/IndexTeam/IndexTTS-2.5/resolve/c39ce5ba981572cb187443877ff559dfb246ce63/LICENSE",
+          "sha256": "cc7da9ea0f8a97ef15ab3bf0389e636ce79ffca1aef5489520796ac87d87a87b"
+        },
+        {
+          "file": "models/IndexTTS-2.5/README.md",
+          "source": "https://huggingface.co/IndexTeam/IndexTTS-2.5/resolve/c39ce5ba981572cb187443877ff559dfb246ce63/README.md",
+          "sha256": "d21e2ed55013ce0c456b9aa6d4fab7222365bfad10dd839155da0ce36fa93001"
+        }
+      ]
+    },
+    {
+      "name": "W2V-BERT-2.0",
+      "repo": "facebook/w2v-bert-2.0",
+      "revision": "da985ba0987f70aaeb84a80f2851cfac8c697a7b",
+      "files": [
+        {
+          "file": "models/W2V-BERT-2.0/README.md",
+          "source": "https://huggingface.co/facebook/w2v-bert-2.0/resolve/da985ba0987f70aaeb84a80f2851cfac8c697a7b/README.md",
+          "sha256": "478afeacb3b4ce0d86b361f099416d28a7e7673ade31775c0f85f396979b7fc2"
+        }
+      ]
+    },
+    {
+      "name": "BigVGAN",
+      "repo": "nvidia/bigvgan_v2_22khz_80band_256x",
+      "revision": "633ff708ed5b74903e86ff1298cf4a98e921c513",
+      "files": [
+        {
+          "file": "models/BigVGAN/LICENSE",
+          "source": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x/resolve/633ff708ed5b74903e86ff1298cf4a98e921c513/LICENSE",
+          "sha256": "90459cd52fc41bd723df7c0c76fac1e4dd60e6bfd644a7e2a93f325bed4f6d95"
+        },
+        {
+          "file": "models/BigVGAN/README.md",
+          "source": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x/resolve/633ff708ed5b74903e86ff1298cf4a98e921c513/README.md",
+          "sha256": "e70574f9ca1a0fac3a1faea840898c4c814552e46f5c160639db1397f9c7ddf4"
+        }
+      ]
+    },
+    {
+      "name": "MaskGCT",
+      "repo": "amphion/MaskGCT",
+      "revision": "265c6cef07625665d0c28d2faafb1415562379dc",
+      "files": [
+        {
+          "file": "models/MaskGCT/README.md",
+          "source": "https://huggingface.co/amphion/MaskGCT/resolve/265c6cef07625665d0c28d2faafb1415562379dc/README.md",
+          "sha256": "8dfdbd32898b8b260f6cf63647ac1ae98aa6779f3b49cc4ff32059920e712cdf"
+        }
+      ]
+    },
+    {
+      "name": "CAMPPlus",
+      "repo": "funasr/campplus",
+      "revision": "e4b6ede7ce16997aff4ae69fbca1f0175e2afede",
+      "files": [
+        {
+          "file": "models/CAMPPlus/README.md",
+          "source": "https://huggingface.co/funasr/campplus/resolve/e4b6ede7ce16997aff4ae69fbca1f0175e2afede/README.md",
+          "sha256": "c6025ccc42e290640f44e06f0742c584b99afe738bb819d74889330c692446f9"
+        }
+      ]
+    },
+    {
+      "name": "Nemotron-3-Diarization",
+      "repo": "nvidia/Nemotron-3-Diarization",
+      "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+      "files": [
+        {
+          "file": "models/Nemotron-3-Diarization/README.md",
+          "source": "https://huggingface.co/nvidia/Nemotron-3-Diarization/resolve/f667ed73aee57d40cc39428eb768b4fd87a0a29e/README.md",
+          "sha256": "5fe88ca4020d2ee134f806a0a02c52c19855b73047bc2e6f25b9171e1abeebfd"
+        }
+      ]
+    },
+    {
+      "name": "PLaMo 3 Translate 2B",
+      "repo": "pfnet/plamo-3-translate-2b-GGUF",
+      "revision": "f2b4599dff9b3e45c62567eac15e83186b4cb64e",
+      "files": [
+        {
+          "file": "models/PLaMo3-Translate-2B/README.md",
+          "source": "https://huggingface.co/pfnet/plamo-3-translate-2b-GGUF/resolve/f2b4599dff9b3e45c62567eac15e83186b4cb64e/README.md",
+          "sha256": "fc811d0f9667570c8b2d86fc50973ecd0d4f8cec4ede0ff0e5aa1aaff2661976"
+        },
+        {
+          "file": "models/PLaMo3-Translate-2B/LICENSE-en.txt",
+          "source": "https://huggingface.co/pfnet/plamo-3-translate-2b-GGUF/resolve/f2b4599dff9b3e45c62567eac15e83186b4cb64e/LICENSE/en",
+          "sha256": "d9979039b8f1a96fa81e1be61c4550d06f8542b25119e3f765c7c011a68597fb"
+        },
+        {
+          "file": "models/PLaMo3-Translate-2B/LICENSE-ja.txt",
+          "source": "https://huggingface.co/pfnet/plamo-3-translate-2b-GGUF/resolve/f2b4599dff9b3e45c62567eac15e83186b4cb64e/LICENSE/ja",
+          "sha256": "988b37b0b21ca130ad84a092429e4e5bceec5f86dfe85a8ca3e06ea703b960ca"
+        }
+      ]
+    },
+    {
+      "name": "Kim-MelBandRoFormer",
+      "repo": "KimberleyJSN/melbandroformer",
+      "revision": "ac9b0614ab3cd7f77219e18ba494dfd93956c348",
+      "files": [
+        {
+          "file": "models/Kim-MelBandRoFormer/README.md",
+          "source": "https://huggingface.co/KimberleyJSN/melbandroformer/resolve/ac9b0614ab3cd7f77219e18ba494dfd93956c348/README.md",
+          "sha256": "5c1b3fd193f37b9dcdd947a12e566189f1c9d2664f4e5e95548e6a4b9fc7adab"
+        }
+      ]
+    }
+  ]
+}

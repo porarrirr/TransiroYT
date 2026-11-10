@@ -1,0 +1,128 @@
+TransiroYT — third-party components
+
+TransiroYT original code and browser extensions: MIT.
+Copyright (c) 2026 porarrirr and TransiroYT contributors.
+See TransiroYT-MIT.txt. This license does not replace third-party terms.
+See package-licenses.json for per-package notices, supplemental/ for missing
+upstream wheel notices and pinned model cards, and README-ja.md for details.
+CPython 3.12.11 (20250818 build) and 3.11.15 (20260510 build): PSF/Python
+and bundled dependency licenses, including OpenSSL, libedit, libffi, bzip2,
+xz, SQLite, ncurses, Tcl/Tk and zlib. Original texts are retained under
+supplemental/cpython-api and supplemental/cpython-tts. The macOS builds use
+the OS ndbm implementation, not the Berkeley DB included on other platforms.
+
+The application includes Python, Python packages, Irodori-TTS, IndexTTS-2.5
+and a custom LGPL build of FFmpeg, plus Node.js for yt-dlp's JavaScript challenges.
+Original license texts are retained in the bundled
+Python distributions and package *.dist-info/licenses directories. Additional
+licenses and build information are in Runtime/licenses. See dependency-inventory.json
+for the exact Python package versions shipped in this build.
+
+FFmpeg 8.1.1: LGPL 2.1 or later; built without GPL or nonfree components. Uses Apple VideoToolbox for H.264
+encoding and dav1d 1.5.3 (BSD-2-Clause) for AV1 decoding.
+Source: https://ffmpeg.org/releases/ffmpeg-8.1.1.tar.xz
+SHA256: b6863adde98898f42602017462871b5f6333e65aec803fdd7a6308639c52edf3
+FFmpeg shared libraries may be replaced with compatible modified versions.
+The corresponding source archive and build script are provided alongside the DMG
+in TransiroYT-0.5.0-third-party-sources.zip. The application uses shared libraries;
+FFmpeg is not statically linked into the application.
+
+dav1d 1.5.3: BSD-2-Clause. Original notices: dav1d-BSD-2-Clause.txt.
+Source: https://download.videolan.org/pub/videolan/dav1d/1.5.3/dav1d-1.5.3.tar.xz
+SHA256: 732010aa5ef461fa93355ed2c6c5fedb48ddc4b74e697eaabe8907eaeb943011
+Source and build commands are included in the corresponding-source archive.
+
+Irodori-TTS: MIT
+https://github.com/Aratako/Irodori-TTS/tree/89f9d8fbd4d51ea019867ee1197725ede1df13c5
+
+IndexTTS-2.5: bilibili Model Use License Agreement.
+https://github.com/index-tts/index-tts/tree/d9e41aac89fd00b3d71497fddb287b7f24613712
+Full agreement: Runtime/licenses/IndexTTS-bilibili-LICENSE.txt
+The agreement requires retaining the original copyright notices and a copy of
+the agreement, and imposes the same terms on downstream recipients. A separate
+written license must be obtained if the product or its affiliates exceeded
+100 million monthly active users in the preceding month or RMB 1 billion in
+annual revenue in the preceding year. Use in prohibited high-risk scenarios
+(medical diagnosis, autonomous driving, military, critical infrastructure,
+large-scale biometric surveillance, automated credit/employment decisions) is
+not permitted. The agreement is governed by the laws of the People's Republic
+of China; the Chinese text prevails over the English translation.
+Model weights (IndexTeam/IndexTTS-2.5 revision c39ce5ba981572cb187443877ff559dfb246ce63
+plus auxiliary w2v-bert-2.0, BigVGAN, MaskGCT semantic codec and CAMPPlus)
+are downloaded by the user on first use, not embedded in the DMG. Their model
+cards and the license copy are retained in Runtime/licenses/supplemental/models/
+and pinned in Runtime/models.lock.json. Auxiliary terms: w2v-bert-2.0 MIT,
+BigVGAN MIT, CAMPPlus Apache-2.0, MaskGCT semantic codec CC-BY-NC-4.0
+(non-commercial; confirm with the right-holder or replace before commercial
+distribution). The QwenEmotion weights (qwen0.6bemo4-merge) are not downloaded.
+IndexTTS's declared dependencies that carry GPL code are not shipped:
+opencv-python (macOS wheel embeds GPL FFmpeg codecs libx264/libx265), Distance
+(GPL; only required by the unused g2p_en), g2p_en (unused), and textstat/pyphen
+(only used by an unused helper module; pyphen is GPL/LGPL/MPL dual-licensed).
+The inference path does not import them.
+
+MLX: MIT (Apple Silicon FP32 audio decoder).
+https://github.com/ml-explore/mlx
+
+yt-dlp: Unlicense (dependencies retain their own licenses).
+https://github.com/yt-dlp/yt-dlp
+
+Node.js 24.22.1: MIT, with third-party licenses included in
+Runtime/licenses/Node-and-third-party-licenses.txt.
+https://nodejs.org/dist/v24.22.1/
+
+Models are downloaded directly by the user on first run, not embedded in the DMG.
+The app presents model terms before downloading. Model revisions and integrity
+hashes are in Runtime/models.lock.json.
+
+DACVAE code: Apache-2.0, Copyright Meta Platforms, Inc. and affiliates.
+The Apache license is retained in supplemental/dacvae/LICENSE; original
+copyright notices remain in the bundled source files.
+Python-SoXR 1.0.0 / libsoxr: LGPL-2.1-or-later and bundled third-party terms.
+SoundFile 0.13.1 bundles libsndfile 1.2.2 (LGPL), mpg123 1.32.3 (LGPL),
+LAME 3.100 (LGPL), Ogg 1.3.5, Vorbis 1.3.7, FLAC 1.4.3 and Opus 1.4.
+The native library matches upstream libsndfile-binaries commit
+a3e6f9769d0c7e91d2d036cf0fdbe5b4bbf18b87. Corresponding sources,
+original notices and macOS build scripts are included in the source ZIP.
+SciPy 1.17.0 bundles libquadmath (LGPL-2.1-or-later). GCC 13.4.0 sources
+matching the recorded Fortran build version are included in the source ZIP.
+The GCC Runtime Library Exception for libgcc/libgfortran is retained.
+autocommand 2.2.2, if included in the build inventory: LGPL-3.0
+(LGPLv3 and GPLv3 texts are included).
+Matching source archives and rebuilding instructions for these LGPL components
+are provided in TransiroYT-0.5.0-third-party-sources.zip alongside the DMG.
+The application does not restrict replacement/modification of LGPL components
+or reverse engineering for debugging those modifications.
+The optional GPL Mutagen metadata editor is not included in distribution builds.
+
+Irodori: https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small-MF
+Semantic-DACVAE: https://huggingface.co/Aratako/Semantic-DACVAE-Japanese-32dim
+SilentCipher: https://huggingface.co/Sony/SilentCipher
+IndexTTS-2.5: https://huggingface.co/IndexTeam/IndexTTS-2.5
+w2v-bert-2.0: https://huggingface.co/facebook/w2v-bert-2.0
+BigVGAN: https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x
+MaskGCT: https://huggingface.co/amphion/MaskGCT
+CAMPPlus: https://huggingface.co/funasr/campplus
+
+TransiroYT is not affiliated with Google or YouTube. Third-party trademarks
+belong to their respective owners.
+
+Shared Mac/iOS Core ML worker:
+Irodori TTS Core ML SDK, revision 948f17da32e94fdb87eeb9420b76326312665d49:
+Apache-2.0 for the new SDK code; MIT/Apache-2.0 for component-specific upstream
+code and weights. Original source, local changes and build instructions:
+apple/Inference/Vendor/IrodoriTTS/UPSTREAM.md and scripts/build_coreml.sh.
+Original license texts and notices: Runtime/licenses/mobile-inference/.
+Model distributions retain their original licenses and provenance. The file
+worker disables AudioSeal initialization and watermark application.
+
+Gemma 4 E4B-it Q6_K (Google DeepMind; GGUF by Unsloth), local text engine
+Apache-2.0 (https://ai.google.dev/gemma/docs/gemma_4_license). License text and model card:
+licenses/supplemental/models/Gemma4-Fallback/
+Pinned source: https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/tree/bfc15c382204943c3a8fff0c750b94ae2364d7a3
+
+Kim Mel-Band RoFormer inference: adapted from mlx-audio 0.6.5 (MIT).
+Copyright (c) 2024 Prince Canuma; (c) 2026 Prince Canuma and contributors.
+https://github.com/Blaizzy/mlx-audio
+License: Runtime/backend/transiroyt/mel_roformer/LICENSE
+Weights: KimberleyJSN/melbandroformer, revision ac9b0614ab3cd7f77219e18ba494dfd93956c348 (MIT model card).

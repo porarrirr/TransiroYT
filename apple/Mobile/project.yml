@@ -1,0 +1,42 @@
+name: TransiroYTMobile
+options:
+  developmentLanguage: ja
+  bundleIdPrefix: com.porarri.transiroyt
+  deploymentTarget:
+    iOS: '18.0'
+packages:
+  TransiroInference:
+    path: ../Inference
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    ARCHS: arm64
+    INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking: YES
+    TARGETED_DEVICE_FAMILY: '1,2'
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: TransiroYT Mobile
+    INFOPLIST_KEY_NSCameraUsageDescription: Macに表示された連携用QRコードを読み取ります。
+    INFOPLIST_KEY_NSLocalNetworkUsageDescription: Wi-FiまたはUSBでMacに接続して音声生成と音声分析を分担します。
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    MARKETING_VERSION: '0.5.1'
+    CURRENT_PROJECT_VERSION: '2'
+targets:
+  TransiroYTMobile:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+      - path: Notices
+        type: folder
+    dependencies:
+      - package: TransiroInference
+    entitlements:
+      path: TransiroYTMobile.entitlements
+      properties:
+        com.apple.developer.kernel.increased-memory-limit: true
+schemes:
+  TransiroYTMobile:
+    build:
+      targets:
+        TransiroYTMobile: all

@@ -1,0 +1,18 @@
+#!/bin/sh
+# Resolve the user-level symlink before finding the signed bundled Python.
+set -eu
+launcher=$0
+while [ -L "$launcher" ]; do
+    directory=$(CDPATH= cd -P -- "$(dirname -- "$launcher")" && pwd)
+    target=$(/usr/bin/readlink "$launcher")
+    case "$target" in
+        /*) launcher=$target ;;
+        *) launcher=$directory/$target ;;
+    esac
+done
+runtime=$(CDPATH= cd -P -- "$(dirname -- "$launcher")/../.." && pwd)
+unset PYTHONHOME
+export PYTHONPATH="$runtime/backend"
+export PYTHONNOUSERSITE=1
+export PYTHONDONTWRITEBYTECODE=1
+exec "$runtime/python-api/bin/python3.12" -B -s -m transiroyt.cli "$@"

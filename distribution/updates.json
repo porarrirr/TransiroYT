@@ -1,0 +1,7 @@
+{
+  "repository": "porarrirr/TransiroYT",
+  "feed_url": "https://github.com/porarrirr/TransiroYT/releases/download/updates/appcast.xml",
+  "preview_feed_url": "https://github.com/porarrirr/TransiroYT/releases/download/updates/appcast-preview.xml",
+  "public_key": "4b+3pQPmMXDJmjEuh2AMnij3FpN0CAtan5a2RYVU6zw=",
+  "keychain_account": "com.porarri.transiroyt.updates"
+}

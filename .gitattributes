@@ -1,0 +1,5 @@
+# Preserve upstream notices byte-for-byte: manifests verify their SHA-256.
+# Their original whitespace is part of the retained source text.
+distribution/licenses/** -text -whitespace
+apple/Inference/Vendor/IrodoriTTS/LICENSES/** -text -whitespace
+apple/Mobile/Notices/LICENSES/** -text -whitespace

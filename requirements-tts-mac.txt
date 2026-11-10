@@ -1,0 +1,21 @@
+# macOS file-dubbing workers only; speech synthesis uses the bundled Core ML engine.
+# Locked with hashes in distribution/worker-requirements.lock.
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+transformers==5.21.0
+huggingface-hub>=1.5,<2
+numpy==2.2.6
+scipy==1.17.0
+soundfile==0.13.1
+soxr==1.0.0
+numba==0.63.0
+llvmlite==0.46.0
+librosa==0.11.0
+mlx==0.32.4
+mlx-whisper==0.4.3
+speechbrain==1.1.2
+hyperpyyaml==1.2.2
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+sentencepiece==0.1.99

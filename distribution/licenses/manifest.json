@@ -1,0 +1,326 @@
+{
+  "schema": 1,
+  "components": [
+    {
+      "name": "dacvae",
+      "versions": [
+        "1.0.0"
+      ],
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "dacvae/LICENSE",
+          "source": "https://raw.githubusercontent.com/facebookresearch/dacvae/414c20785fc3a28373073ea8ef7a1316eeeaca6e/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ]
+    },
+    {
+      "name": "descript-audiotools",
+      "versions": [
+        "0.7.2"
+      ],
+      "license": "MIT",
+      "files": [
+        {
+          "file": "descript-audiotools/LICENSE",
+          "source": "https://raw.githubusercontent.com/descriptinc/audiotools/348ebf2034ce24e2a91a553e3171cb00c0c71678/LICENSE",
+          "sha256": "e4075451f4ce5837e89240b4d6761d49e2ee03bdaf776f2f46a6249e65ebafa8"
+        }
+      ]
+    },
+    {
+      "name": "ffmpy",
+      "versions": [
+        "1.0.0"
+      ],
+      "license": "MIT",
+      "files": [
+        {
+          "file": "ffmpy/LICENSE",
+          "source": "https://raw.githubusercontent.com/Ch00k/ffmpy/3b3c56f3ef04b3868b401c3fa2cc6ea294b78dfb/LICENSE",
+          "sha256": "19ee5defbb6148c54c2d605adddbb49e37b1f37fbf18e5b45e4e1fae94be5331"
+        }
+      ]
+    },
+    {
+      "name": "pyarrow",
+      "versions": [
+        "23.0.0"
+      ],
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "pyarrow/LICENSE.txt",
+          "source": "https://files.pythonhosted.org/packages/01/33/ffd9c3eb087fa41dd79c3cf20c4c0ae3cdb877c4f8e1107a446006344924/pyarrow-23.0.0.tar.gz#pyarrow-23.0.0/LICENSE.txt",
+          "sha256": "23fc45dce1769d9ddf4aac4d6cdaf3f7f0d14fcc4d930dd0d4afbefa2ea3322a"
+        },
+        {
+          "file": "pyarrow/NOTICE.txt",
+          "source": "https://files.pythonhosted.org/packages/01/33/ffd9c3eb087fa41dd79c3cf20c4c0ae3cdb877c4f8e1107a446006344924/pyarrow-23.0.0.tar.gz#pyarrow-23.0.0/NOTICE.txt",
+          "sha256": "c946470d6b024c77feebdfb686bf92a828402c0ffc27c769bca7d8bef08e1db7"
+        }
+      ]
+    },
+    {
+      "name": "sentencepiece",
+      "versions": [
+        "0.1.99"
+      ],
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "sentencepiece/sentencepiece/LICENSE",
+          "source": "https://files.pythonhosted.org/packages/d8/87/b37ebc960d0a85e10785a1a92d796edbd975840bee150a9ae3ba5d7a0250/sentencepiece-0.1.99.tar.gz#sentencepiece-0.1.99/sentencepiece/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "sentencepiece/sentencepiece/third_party/absl/LICENSE",
+          "source": "https://files.pythonhosted.org/packages/d8/87/b37ebc960d0a85e10785a1a92d796edbd975840bee150a9ae3ba5d7a0250/sentencepiece-0.1.99.tar.gz#sentencepiece-0.1.99/sentencepiece/third_party/absl/LICENSE",
+          "sha256": "d3e2f59e1d71176dfdb555ece6a41f7a5aa0f52ff21211010ace314f57695f6b"
+        },
+        {
+          "file": "sentencepiece/sentencepiece/third_party/darts_clone/LICENSE",
+          "source": "https://files.pythonhosted.org/packages/d8/87/b37ebc960d0a85e10785a1a92d796edbd975840bee150a9ae3ba5d7a0250/sentencepiece-0.1.99.tar.gz#sentencepiece-0.1.99/sentencepiece/third_party/darts_clone/LICENSE",
+          "sha256": "155f59997298ee336602c49f9c1110f268ac394ca2197eb02647a3555935ad52"
+        },
+        {
+          "file": "sentencepiece/sentencepiece/third_party/esaxx/LICENSE",
+          "source": "https://files.pythonhosted.org/packages/d8/87/b37ebc960d0a85e10785a1a92d796edbd975840bee150a9ae3ba5d7a0250/sentencepiece-0.1.99.tar.gz#sentencepiece-0.1.99/sentencepiece/third_party/esaxx/LICENSE",
+          "sha256": "7c28553d1d3312d65fe309f76a22ebaf33a3d76c8c1e3b98a88ee4654ecb53db"
+        },
+        {
+          "file": "sentencepiece/sentencepiece/third_party/protobuf-lite/LICENSE",
+          "source": "https://files.pythonhosted.org/packages/d8/87/b37ebc960d0a85e10785a1a92d796edbd975840bee150a9ae3ba5d7a0250/sentencepiece-0.1.99.tar.gz#sentencepiece-0.1.99/sentencepiece/third_party/protobuf-lite/LICENSE",
+          "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d"
+        }
+      ]
+    },
+    {
+      "name": "tokenizers",
+      "versions": [
+        "0.22.2",
+        "0.23.3"
+      ],
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "tokenizers/tokenizers/LICENSE",
+          "source": "https://files.pythonhosted.org/packages/73/6f/f80cfef4a312e1fb34baf7d85c72d4411afde10978d4657f8cdd811d3ccc/tokenizers-0.22.2.tar.gz#tokenizers-0.22.2/tokenizers/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "gradio-client",
+      "versions": [
+        "2.1.0"
+      ],
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "gradio-client/LICENSE",
+          "source": "gradio 6.6.0 wheel: gradio-6.6.0.dist-info/licenses/LICENSE (same upstream project)",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "tensorboard-data-server",
+      "versions": [
+        "0.7.2"
+      ],
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "tensorboard-data-server/LICENSE",
+          "source": "https://raw.githubusercontent.com/tensorflow/tensorboard/2.15.0/LICENSE",
+          "sha256": "d7c9068d896188264b60827b8cd1e25fdb9f5b5cad0b1589e90b96c87729c404"
+        }
+      ]
+    },
+    {
+      "name": "cpython-api",
+      "versions": [
+        "3.12.11"
+      ],
+      "license": "PSF/Python and bundled component notices",
+      "files": [
+        {
+          "file": "cpython-api/LICENSE",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        },
+        {
+          "file": "cpython-api/LICENSE.bzip2.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.bzip2.txt",
+          "sha256": "1f38bbc7caacafd65169276d759c0d88c991b753b643ce35d0e45ea1971dd441"
+        },
+        {
+          "file": "cpython-api/LICENSE.cpython.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.cpython.txt",
+          "sha256": "86e61415828a8b5b06ec8d024e6f086ce155a8b85fd0c419c0ba4dc004e74fdd"
+        },
+        {
+          "file": "cpython-api/LICENSE.expat.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.expat.txt",
+          "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+        },
+        {
+          "file": "cpython-api/LICENSE.libedit.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.libedit.txt",
+          "sha256": "29cea33c32bbc9785142386377915612a2fa786482c46843383384aded2e09b1"
+        },
+        {
+          "file": "cpython-api/LICENSE.libffi.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.libffi.txt",
+          "sha256": "deaf3a42effb551a5b140fa9afefed183a27f1341c6d1bf430d106a5e6931fc0"
+        },
+        {
+          "file": "cpython-api/LICENSE.liblzma.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.liblzma.txt",
+          "sha256": "828d5b508798d6a95c1c08ce5eee517a84ed1bda14eac58c440b6bce2c5cf1ca"
+        },
+        {
+          "file": "cpython-api/LICENSE.mpdecimal.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.mpdecimal.txt",
+          "sha256": "669512af7219f58be03a398766d7c9da11a3b3df9d3f05cb74c5ceca25c8da3b"
+        },
+        {
+          "file": "cpython-api/LICENSE.ncurses.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.ncurses.txt",
+          "sha256": "87a4c4442337b8968ef956031c406b74f9cb7149b7ba87311bdaba534816201c"
+        },
+        {
+          "file": "cpython-api/LICENSE.openssl-3.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.openssl-3.txt",
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        },
+        {
+          "file": "cpython-api/LICENSE.sqlite.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.sqlite.txt",
+          "sha256": "38bef3d28b24f145ea293bd3b6eb4b20396982abc8303128fb493986ea5bc719"
+        },
+        {
+          "file": "cpython-api/LICENSE.tcl.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.tcl.txt",
+          "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+        },
+        {
+          "file": "cpython-api/LICENSE.zlib.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/6e9f3165c8a720cfc61232460ed5b62a583c3900/LICENSE.zlib.txt",
+          "sha256": "818922b2620f12801a12bf78e399644a30990e66824abd8ca8ec24d451d6f92c"
+        }
+      ]
+    },
+    {
+      "name": "cpython-tts",
+      "versions": [
+        "3.11.15"
+      ],
+      "license": "PSF/Python and bundled component notices",
+      "files": [
+        {
+          "file": "cpython-tts/LICENSE",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        },
+        {
+          "file": "cpython-tts/LICENSE.bzip2.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.bzip2.txt",
+          "sha256": "1f38bbc7caacafd65169276d759c0d88c991b753b643ce35d0e45ea1971dd441"
+        },
+        {
+          "file": "cpython-tts/LICENSE.cpython.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.cpython.txt",
+          "sha256": "86e61415828a8b5b06ec8d024e6f086ce155a8b85fd0c419c0ba4dc004e74fdd"
+        },
+        {
+          "file": "cpython-tts/LICENSE.expat.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.expat.txt",
+          "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+        },
+        {
+          "file": "cpython-tts/LICENSE.libedit.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.libedit.txt",
+          "sha256": "29cea33c32bbc9785142386377915612a2fa786482c46843383384aded2e09b1"
+        },
+        {
+          "file": "cpython-tts/LICENSE.libffi.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.libffi.txt",
+          "sha256": "deaf3a42effb551a5b140fa9afefed183a27f1341c6d1bf430d106a5e6931fc0"
+        },
+        {
+          "file": "cpython-tts/LICENSE.liblzma.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.liblzma.txt",
+          "sha256": "9a4062de0a2c388a98cf35a35d348b62fa97c838a71c3c28ee1a2d7d0a565b02"
+        },
+        {
+          "file": "cpython-tts/LICENSE.mpdecimal.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.mpdecimal.txt",
+          "sha256": "669512af7219f58be03a398766d7c9da11a3b3df9d3f05cb74c5ceca25c8da3b"
+        },
+        {
+          "file": "cpython-tts/LICENSE.ncurses.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.ncurses.txt",
+          "sha256": "87a4c4442337b8968ef956031c406b74f9cb7149b7ba87311bdaba534816201c"
+        },
+        {
+          "file": "cpython-tts/LICENSE.openssl-3.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.openssl-3.txt",
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        },
+        {
+          "file": "cpython-tts/LICENSE.sqlite.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.sqlite.txt",
+          "sha256": "38bef3d28b24f145ea293bd3b6eb4b20396982abc8303128fb493986ea5bc719"
+        },
+        {
+          "file": "cpython-tts/LICENSE.tcl.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.tcl.txt",
+          "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+        },
+        {
+          "file": "cpython-tts/LICENSE.zlib.txt",
+          "source": "https://raw.githubusercontent.com/astral-sh/python-build-standalone/f0ae464f527498d6c4b13f19977447d603cd5edd/LICENSE.zlib.txt",
+          "sha256": "818922b2620f12801a12bf78e399644a30990e66824abd8ca8ec24d451d6f92c"
+        }
+      ]
+    },
+    {
+      "name": "mlx-whisper",
+      "versions": [
+        "0.4.3"
+      ],
+      "license": "MIT",
+      "files": [
+        {
+          "file": "mlx-whisper/LICENSE",
+          "source": "https://raw.githubusercontent.com/ml-explore/mlx-examples/796f5b53cab69a3d48a44233ce21aae889e94a08/LICENSE",
+          "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01"
+        },
+        {
+          "file": "mlx-whisper/openai-whisper-LICENSE",
+          "source": "https://raw.githubusercontent.com/openai/whisper/86098128c0b4f24f0e2aa2994de830614b474227/LICENSE",
+          "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+        }
+      ]
+    }
+  ],
+  "runtime_components": [
+    {
+      "prefix": "python-api",
+      "version": "3.12.11",
+      "build_tag": "20250818",
+      "header": "include/python3.12/patchlevel.h",
+      "build_tree": "6e9f3165c8a720cfc61232460ed5b62a583c3900"
+    },
+    {
+      "prefix": "python-tts",
+      "version": "3.11.15",
+      "build_tag": "20260510",
+      "header": "include/python3.11/patchlevel.h",
+      "build_tree": "f0ae464f527498d6c4b13f19977447d603cd5edd"
+    }
+  ]
+}

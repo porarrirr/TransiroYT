@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "models": [
+    {
+      "stage": "speech",
+      "repo": "Aratako/Irodori-TTS-v4.1-Small-MF",
+      "revision": "ccc78f5d480b6e51b69b2d5042a14c4da04fea6e",
+      "files": [
+        {
+          "name": "model.safetensors",
+          "size": 3093131788,
+          "sha256": "a3f204b3ee06058f4e639a1af38408e7e3af5b6c75176897ecb8bfaaebb4fd54"
+        },
+        {
+          "name": "tokenizer/tokenizer.json",
+          "size": 6718495,
+          "git_blob_sha1": "1b9a8b7e5e8d37174e6b9e9655cdbd0c9b456af7"
+        },
+        {
+          "name": "tokenizer/tokenizer_config.json",
+          "size": 668,
+          "git_blob_sha1": "e59d0be2a7fd2bc7f7b85136e46c65a41c1c3634"
+        }
+      ]
+    },
+    {
+      "stage": "codec",
+      "repo": "Aratako/Semantic-DACVAE-Japanese-32dim",
+      "revision": "47376ee24834d7a05a48ebabfe3cde29b3c5e214",
+      "files": [
+        {
+          "name": "weights.pth",
+          "size": 429620065,
+          "sha256": "db120339c5ee7eca1912cdf29bc612b947a0808e69c3cebfb4936b45a762c1d5"
+        }
+      ]
+    },
+    {
+      "stage": "watermark",
+      "repo": "Sony/SilentCipher",
+      "revision": "a1c4d021905e0dc5b24be5f68db5fc4dba410ee1",
+      "files": [
+        {
+          "name": "44_1_khz/73999_iteration/dec_c.ckpt",
+          "size": 2008794,
+          "sha256": "c23b57635172b2fbd3a8531d15ba76b5885a10d0fe902ccb823c521c56041b33"
+        },
+        {
+          "name": "44_1_khz/73999_iteration/dec_m_0.ckpt",
+          "size": 9554818,
+          "sha256": "829540c058270d29788f05294894d45bf436e44add0e1099422242ebb94b7088"
+        },
+        {
+          "name": "44_1_khz/73999_iteration/enc_c.ckpt",
+          "size": 184765,
+          "sha256": "ff64f80d2391fdfc888e4103c499be4a2c958e59626587a1eab6db93204814c7"
+        },
+        {
+          "name": "44_1_khz/73999_iteration/hparams.yaml",
+          "size": 1474,
+          "git_blob_sha1": "41c69dfaabdf288dd8ecc8f0aa59f73d211537e8"
+        }
+      ]
+    },
+    {
+      "stage": "reference-voice",
+      "repo": "IndexTeam/IndexTTS-2.5",
+      "revision": "c39ce5ba981572cb187443877ff559dfb246ce63",
+      "files": [
+        {
+          "name": "config.yaml",
+          "size": 2860,
+          "git_blob_sha1": "b3f15b22f394f2327de574e9b5801c1d9654e203"
+        },
+        {
+          "name": "gpt.pth",
+          "size": 3259599833,
+          "sha256": "43a8f4c30eccdf201958d3b9713511482c19d56dc20b0b1c4ee1e6b080b19d85"
+        },
+        {
+          "name": "codec.pth",
+          "size": 607290935,
+          "sha256": "d15cbed16a40f478438c961fb043f68dfa6353bf56c966761315db3433e9722c"
+        },
+        {
+          "name": "s2mel.pth",
+          "size": 414908601,
+          "sha256": "9b1b0003fc189c94cc349758d7ebc25f903b7eb2de4602879959cc64ce816456"
+        },
+        {
+          "name": "feat1.pt",
+          "size": 57170,
+          "sha256": "f219cb447d80216ba615666da2ff8d63ac544eee26657f3a7b278692bf7a67c4"
+        },
+        {
+          "name": "feat2.pt",
+          "size": 374866,
+          "sha256": "9c4292e96dee535aea9a6206e9a0c856dd578dde9212acdb16dd3ada4d12bf80"
+        },
+        {
+          "name": "multilingual_zh_ja_yue_char_del.tiktoken",
+          "size": 907395,
+          "git_blob_sha1": "ac47fe685d24565030965a94c0d98e00e0331eaa"
+        },
+        {
+          "name": "wav2vec2bert_stats.pt",
+          "size": 9343,
+          "sha256": "c9c176c2b8850ab2e3ba828bbfa969deaf4566ce55db5f2687b8430b87526ad2"
+        }
+      ]
+    },
+    {
+      "stage": "reference-voice-aux",
+      "repo": "facebook/w2v-bert-2.0",
+      "revision": "da985ba0987f70aaeb84a80f2851cfac8c697a7b",
+      "files": [
+        {
+          "name": "model.safetensors",
+          "size": 2322063736,
+          "sha256": "eb890c9660ed6e3414b6812e27257b8ce5454365d5490d3ad581ea60b93be043"
+        },
+        {
+          "name": "config.json",
+          "size": 1874,
+          "git_blob_sha1": "a383a594dac18459628cd2837168cd276342a31a"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "size": 275,
+          "git_blob_sha1": "5db61951cdf5edab6337fd84ee619500c27aaa3d"
+        }
+      ]
+    },
+    {
+      "stage": "reference-voice-aux",
+      "repo": "nvidia/bigvgan_v2_22khz_80band_256x",
+      "revision": "633ff708ed5b74903e86ff1298cf4a98e921c513",
+      "files": [
+        {
+          "name": "bigvgan_generator.pt",
+          "size": 449228171,
+          "sha256": "e95ba25972d3de0628d99cd156e9315a9c018899bf739988959ebe3544080ced"
+        },
+        {
+          "name": "config.json",
+          "size": 1405,
+          "git_blob_sha1": "635bd8975629bd6d4b51c409986944a281cfe7be"
+        }
+      ]
+    },
+    {
+      "stage": "reference-voice-aux",
+      "repo": "amphion/MaskGCT",
+      "revision": "265c6cef07625665d0c28d2faafb1415562379dc",
+      "files": [
+        {
+          "name": "semantic_codec/model.safetensors",
+          "size": 177183712,
+          "sha256": "ec947271175d8cad75ec37e83aa487e27c97a0f72a303393772da5ffa84bddf2"
+        }
+      ]
+    },
+    {
+      "stage": "reference-voice-aux",
+      "repo": "funasr/campplus",
+      "revision": "e4b6ede7ce16997aff4ae69fbca1f0175e2afede",
+      "files": [
+        {
+          "name": "campplus_cn_common.bin",
+          "size": 28036335,
+          "sha256": "3388cf5fd3493c9ac9c69851d8e7a8badcfb4f3dc631020c4961371646d5ada8"
+        }
+      ]
+    },
+    {
+      "stage": "speaker-activity",
+      "repo": "nvidia/Nemotron-3-Diarization",
+      "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+      "files": [
+        {
+          "name": "model.safetensors",
+          "size": 396954592,
+          "sha256": "c074d86335b3b794f8fa5edc25594558f128bdb3914d27806a3a5a2e44963cb6"
+        }
+      ]
+    }
+  ]
+}

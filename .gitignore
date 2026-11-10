@@ -1,0 +1,41 @@
+# Local environments, credentials, and machine-specific connection settings
+.venv/
+.env
+.env.*
+!.env.example
+extension/runtime-config.js
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+cookies.txt
+credentials.json
+
+# Local models, audio, experiments, build trees, and generated distributions
+.local/
+dist/
+/third_party/
+
+# Python, JavaScript, and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+node_modules/
+test-results/
+
+# macOS and Xcode per-user state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Swift package build state and the generated mobile Xcode project
+apple/Desktop/.build/
+apple/Desktop/.swiftpm/
+apple/Inference/.build/
+apple/Inference/.swiftpm/
+apple/Mobile/TransiroYTMobile.xcodeproj/
+
+# Generated Rust PCM kernel
+backend/transiroyt/_audio_native.*
